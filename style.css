@@ -25,7 +25,7 @@ body{
 }
 
 #container{
-  margin: 0 auto;
+  margin: 20px auto;
   min-height: 100%;
   width: 800px;
   display: flex;
@@ -140,7 +140,7 @@ input[type="submit"]{
 footer{
   text-align: center;
   height: 50px;
-  margin-top: -50px;
+  margin-top: 50px;
 }
 
 footer a{
@@ -161,7 +161,7 @@ footer a{
 
 /* PAGINA SIGNUP */
 #container-signup{
-  margin: 0 auto;
+  margin: 20px auto;
   min-height: 100%;
   max-width: 400px;
   display: flex;
@@ -212,4 +212,44 @@ footer a{
   color: #8e8e8e;
   user-select: none;
 }
+
+
+/* Responsividade */
+
+@media (max-width: 850px){
+  .left {
+    display: none;
+  }
+
+  #container{
+    width: 70%;
+  }
+
+  .right {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  #container{
+    width: 50%;
+
+  }
+  #container{
+    width: 90%;
+  }
+
+  input[type="password"], input[type="text"], input[type="submit"] {
+    width: 85%;
+  }
+
+  .cta-button {
+    width: 85%;
+  }
+
+  .message {
+    margin: 10px 25px;
+  }
+}
+
 
