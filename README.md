@@ -9,4 +9,6 @@
 
 </div>
 
-Pagina Copia do Instagram, para treinamento html e css
+## Descrição do Projeto
+
+Este projeto foi desenvolvido como parte do curso de treinamento em desenvolvimento web, focando nas linguagens HTML e CSS. O objetivo do projeto é criar uma réplica de uma página de perfil do Instagram, utilizando exclusivamente HTML para a estrutura e CSS para o estilo.
